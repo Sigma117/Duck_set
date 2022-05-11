@@ -2,7 +2,7 @@ import os
 import numpy as np
 import glob
 
-path = "/Users/stefanozhao/Desktop/dataset/Duck" 
+path = "<path>" 
 directory_contents = os.listdir(path)
 all_subDirectory = list
 
