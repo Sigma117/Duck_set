@@ -2,8 +2,7 @@ import os
 import numpy as np
 import glob
 
-# per fare i file index.txt
-path = "/Users/stefanozhao/Desktop/dataset/Duck" #pwd sul terminale
+path = "/Users/stefanozhao/Desktop/dataset/Duck" 
 directory_contents = os.listdir(path)
 all_subDirectory = list
 
@@ -12,8 +11,7 @@ for item in directory_contents:
         directory_contents.remove(item)
     if item == "labels":
         directory_contents.remove(
-            "labels")  # per rimuove la cartella labels da quelle in qui dobbiamo estrarrre le immagini
-
+            "labels")  
 
 all_subDirectory = directory_contents
 all_subDirectory.sort()
