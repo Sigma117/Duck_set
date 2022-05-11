@@ -1,4 +1,4 @@
-# Duck_set-
+# Duck_set
 How to create a dataset to train a neural network to detect the roadway lines using Python
 
 In this repository, I will explain how to create a dataset by extracting images from videos using Python. The dataset obtained with this procedure was used to train the CNN presented in [github Link](https://github.com/Sigma117/Robust-Lane-Detection), which had some specific requirements. Thus, if you need to create a dataset for another CNN, you will probably have some different requirements; however, some steps of my procedure may anyway be useful. 
