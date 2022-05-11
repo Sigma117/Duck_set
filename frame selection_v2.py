@@ -2,10 +2,6 @@ import os
 import numpy as np
 import glob
 
-
-
-#crea una cartella prende 20 frame da 4 secondi di video e poi li mette nella cartella creata che ha lo stesso nome del video caricato senza estensione
-
 all_video = [i for i in glob.glob("*.mp4")]
 
 j = 1
@@ -25,11 +21,3 @@ for i in all_video:
         os.system(bashCommand_mv)
 
 print("done")
-
-
-#os.system("mv 3_3_001.jpeg 3_3")
-
-#https://stackoverflow.com/questions/35912335/how-to-extract-a-fixed-number-of-frames-with-ffmpeg
-#https://stackoverflow.com/questions/32047137/need-to-use-a-variable-in-an-os-system-command-in-python
-#https://stackoverflow.com/questions/4256107/running-bash-commands-in-python/51950538
-
