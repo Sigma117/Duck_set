@@ -12,8 +12,8 @@ The whole image extraction process was developed in Python via the following ste
 
 4) **Create labels.** The 13th and 20th frames of each video were copied to a specific folder and then processed with a photo editing program in order to create the labels (unfortunately the labeling process needs to be done by hand XD). The Python script for this step is called take_13,20.py;
 
-5) **Conversion of the labels in grayscale.** This step is necessary since the labels, which have been extracted directly from the starting videos, are colored, while the neural network that I used, required labels in grayscale. The Python script for this step is called ;
+5) **Conversion of the labels in grayscale.** This step is necessary since the labels, which have been extracted directly from the starting videos, are colored, while the neural network that I used, required labels in grayscale. The Python script for this step is called MetaData_img.py;
 
-6) **Creation of txt files for training.** Finally, the train_index and val_index txt files were created for training. The Python script for this step is called .
+6) **Creation of txt files for training.** Finally, the train_index and val_index txt files were created for training. The Python script for this step is called MetaData_img.py.
 
 The following images are examples of how the final images will be after the process is completed. 
