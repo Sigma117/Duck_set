@@ -2,7 +2,7 @@ import os
 import numpy as np
 import glob
 
-path = "<path>"
+path = "<path>/Duck"
 directory_contents = os.listdir(path)
 all_subDirectory = list
 
