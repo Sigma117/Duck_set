@@ -17,3 +17,6 @@ The whole image extraction process was developed in Python via the following ste
 6) **Creation of txt files for training.** Finally, the train_index and val_index txt files were created for training. The Python script for this step is called MetaData_img.py.
 
 The following images are examples of how the final images will be after the process is completed. 
+<img width="700" alt="Schermata 2022-05-11 alle 23 01 46" src="https://user-images.githubusercontent.com/71655239/167947806-928a1c74-8f61-41d8-8c68-b1c14422f001.png">
+<img width="692" alt="Schermata 2022-05-11 alle 23 01 53" src="https://user-images.githubusercontent.com/71655239/167947815-3f646585-23f5-4ba5-a937-4952b1939374.png">
+<img width="1553" alt="Schermata 2022-05-11 alle 23 04 16" src="https://user-images.githubusercontent.com/71655239/167947826-84d77f65-086b-40c9-931a-33f16ed22972.png">
