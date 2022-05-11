@@ -2,11 +2,8 @@ import os
 import numpy as np
 import glob
 
-
-
-
 bashCommand="mkdir 3_1"
-#bashCommand1=" ffmpeg -i *.mp4 -vf thumbnail=6,setpts=N/TB -r 1 -vframes 20 3_%03d.jpeg"
+
 
 all_video = [i for i in glob.glob("*.mp4")]
 
@@ -18,9 +15,3 @@ for i in all_video:
     j = j+1
 
 print("done")
-
-
-
-# per splittare i video
-#https://www.youtube.com/watch?v=Ij-IA24U6r8
-#
